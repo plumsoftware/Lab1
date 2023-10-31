@@ -69,6 +69,9 @@ val md_theme_dark_scrim = Color(0xFF000000)
 
 val seed = Color(0xFFF4D144)
 
+val reviewColor = Color(0xFFA8ADB7)
+val dividerColor = Color(0xFF1A1F29)
+
 
 val LightColorScheme = lightColorScheme(
     primary = seed,

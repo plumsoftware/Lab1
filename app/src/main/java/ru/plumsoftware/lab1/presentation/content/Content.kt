@@ -12,9 +12,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import ru.plumsoftware.lab1.R
 import ru.plumsoftware.lab1.models.PromoModel
+import ru.plumsoftware.lab1.models.ReviewModel
 import ru.plumsoftware.lab1.presentation.description.Description
 import ru.plumsoftware.lab1.presentation.buttons.PrimaryButton
 import ru.plumsoftware.lab1.presentation.head.Head
+import ru.plumsoftware.lab1.presentation.reviews.Reviews
 import ru.plumsoftware.lab1.ui.theme.size.Units
 
 @Preview(showBackground = true, showSystemUi = true, name = "Main content")
@@ -42,6 +44,26 @@ fun Content() {
                     PromoModel(promoResId = R.drawable.promo1),
                     PromoModel(promoResId = R.drawable.promo2),
                     PromoModel(promoResId = R.drawable.promo3)
+                )
+            )
+            Reviews(
+                list = listOf(
+                    ReviewModel(
+                        reviewIconId = R.drawable.reviewer1,
+                        reviewer = stringResource(id = R.string.reviewer1),
+                        reviewDate = System.currentTimeMillis(),
+                        reviewText = stringResource(
+                            id = R.string.reviewText
+                        )
+                    ),
+                    ReviewModel(
+                        reviewIconId = R.drawable.reviewer2,
+                        reviewer = stringResource(id = R.string.reviewer2),
+                        reviewDate = System.currentTimeMillis(),
+                        reviewText = stringResource(
+                            id = R.string.reviewText
+                        )
+                    )
                 )
             )
             PrimaryButton()

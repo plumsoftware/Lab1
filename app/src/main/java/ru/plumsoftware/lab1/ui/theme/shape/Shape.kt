@@ -6,7 +6,7 @@ import ru.plumsoftware.lab1.ui.theme.size.Units
 
 val Shapes = Shapes(
 //    extraLarge = RoundedCornerShape(size = 32.dp),
-//    large = RoundedCornerShape(size = 24.dp),
+    large = RoundedCornerShape(size = Units.WidgetSize.reviewerRadius), //Reviewer icon
     medium = RoundedCornerShape(size = Units.WidgetSize.promoRadius), //Promo
     small = RoundedCornerShape(size = Units.WidgetSize.buttonRadius), //Button
 //    extraSmall = RoundedCornerShape(size = 4.dp)
