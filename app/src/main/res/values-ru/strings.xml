@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1</string>
+
+    <string name="install">Установить</string>
+    <string name="dota_banner">Баннер DoTA 2</string>
+    <string name="dota_logo">Логотип DOTA 2</string>
+
+    <string name="description">Dota 2 — это многопользовательская онлайн-игра на боевой арене (MOBA), в которой две команды по пять игроков соревнуются, чтобы коллективно разрушить большую структуру, защищаемую противостоящей командой, известной как «Древние», одновременно защищая свою собственную.</string>
+
+    <string name="promo">Промо изображение</string>
+
+</resources>

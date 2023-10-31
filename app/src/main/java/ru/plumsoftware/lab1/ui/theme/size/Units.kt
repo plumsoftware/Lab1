@@ -1,11 +1,11 @@
 package ru.plumsoftware.lab1.ui.theme.size
 
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 object Units {
-
     object TextSize {
         val _10sp = 10.sp
         val _12sp = 12.sp
@@ -37,5 +37,18 @@ object Units {
     object WidgetSize {
         val buttonRadius = 12.dp
         val promoRadius = 14.dp
+        val logoSize = 54.dp
+        val bannerSize = 340.dp
+        val promoSize = DpSize(width = 240.dp, height = 135.dp)
+    }
+
+    object Spaces {
+        val headSpacer = 48.dp
+        val contentSpacer = 46.dp
+        val imagePadding = 17.dp
+        val borderWidth = 2.dp
+        val defaultPadding = 24.dp
+        val promoPadding = 12.dp
+        val buttonPadding = 20.dp
     }
 }

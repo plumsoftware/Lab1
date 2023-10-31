@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
+import ru.plumsoftware.lab1.presentation.content.Content
 import ru.plumsoftware.lab1.ui.theme.Lab1Theme
 
 class MainActivity : ComponentActivity() {
@@ -26,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    Content()
                 }
             }
         }
