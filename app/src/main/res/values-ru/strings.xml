@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1</string>
+
+    <string name="install">Установить</string>
+    <string name="dota_banner">Баннер DoTA 2</string>
+    <string name="dota_name">DOTA 2</string>
+    <string name="dota_logo">Логотип DOTA 2</string>
+    <string name="dota_stars">Рейтинг DOTA 2</string>
+    <string name="dota_rating">4.9</string>
+
+    <string name="description">Dota 2 — это многопользовательская онлайн-игра на боевой арене (MOBA), в которой две команды по пять игроков соревнуются, чтобы коллективно разрушить большую структуру, защищаемую противостоящей командой, известной как «Древние», одновременно защищая свою собственную.</string>
+
+    <string name="promo">Промо изображение</string>
+
+    <string name="review">Иконка пользователя, оставившего отзыв</string>
+    <string name="reviewText">\"Как только вы начнете изучать его секреты, здесь появится дикое и захватывающее разнообразие игр, которому нет равных даже среди аналогов.\"</string>
+    <string name="reviewer1">Auguste Conte</string>
+    <string name="reviewer2">Jang Marcelino</string>
+    <string name="reviewTitle">Отзывы &amp; Рейтинг</string>
+    <string name="_70m">70M</string>
+    <string name="video">Иконка проигрывателя</string>
+
+    <string name="tag1">MOBA</string>
+    <string name="tag2">МУЛЬТИПЛЕЕР</string>
+    <string name="tag3">СТРАТЕГИЯ</string>
+</resources>

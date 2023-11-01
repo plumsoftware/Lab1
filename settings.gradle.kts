@@ -11,6 +11,12 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+//    versionCatalogs {
+//        create("libs"){
+//            from(files("libs.versions.toml"))
+//        }
+//    }
+//    Ошибки при включении versionCatalogs
 }
 
 rootProject.name = "Lab1"
