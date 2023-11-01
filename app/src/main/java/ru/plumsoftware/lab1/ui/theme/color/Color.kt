@@ -71,6 +71,9 @@ val seed = Color(0xFFF4D144)
 
 val reviewColor = Color(0xFFA8ADB7)
 val dividerColor = Color(0xFF1A1F29)
+val tagColor = Color(0x3D44A9F4)
+val tagTextColor = Color(0xFF44A9F4)
+val videoButtonColor = Color(0x3DFFFFFF)
 
 
 val LightColorScheme = lightColorScheme(

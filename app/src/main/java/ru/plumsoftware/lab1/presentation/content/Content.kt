@@ -2,6 +2,8 @@ package ru.plumsoftware.lab1.presentation.content
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -17,6 +19,7 @@ import ru.plumsoftware.lab1.presentation.description.Description
 import ru.plumsoftware.lab1.presentation.buttons.PrimaryButton
 import ru.plumsoftware.lab1.presentation.head.Head
 import ru.plumsoftware.lab1.presentation.reviews.Reviews
+import ru.plumsoftware.lab1.presentation.tags.Tags
 import ru.plumsoftware.lab1.ui.theme.size.Units
 
 @Preview(showBackground = true, showSystemUi = true, name = "Main content")
@@ -38,6 +41,13 @@ fun Content() {
             modifier = Modifier
                 .padding(horizontal = Units.Spaces.defaultPadding)
         ) {
+            Tags(
+                list = listOf(
+                    stringResource(id = R.string.tag1),
+                    stringResource(id = R.string.tag2),
+                    stringResource(id = R.string.tag3)
+                )
+            )
             Description(text = stringResource(id = R.string.description))
             PromoContent(
                 promoList = listOf(
@@ -67,6 +77,7 @@ fun Content() {
                 )
             )
             PrimaryButton()
+            Spacer(modifier = Modifier.height(height = Units.Spaces.smallPadding))
         }
     }
 }

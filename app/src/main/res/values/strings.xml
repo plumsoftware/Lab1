@@ -4,7 +4,10 @@
     <string name="install">Install</string>
 
     <string name="dota_banner">DOTA 2 banner</string>
+    <string name="dota_name">DOTA 2</string>
     <string name="dota_logo">DOTA 2 logo</string>
+    <string name="dota_stars">DOTA 2 rating</string>
+    <string name="dota_rating">4.9</string>
 
     <string name="description">Dota 2 is a multiplayer online battle arena (MOBA) game which has two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the "Ancient", whilst defending their own.</string>
 
@@ -15,4 +18,10 @@
     <string name="reviewer1">Auguste Conte</string>
     <string name="reviewer2">Jang Marcelino</string>
     <string name="reviewTitle">Review &amp; Ratings</string>
+    <string name="_70m">70M</string>
+    <string name="video">Play video icon</string>
+
+    <string name="tag1">MOBA</string>
+    <string name="tag2">MULTIPLAYER</string>
+    <string name="tag3">STRATEGY</string>
 </resources>

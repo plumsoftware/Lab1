@@ -3,6 +3,7 @@ package ru.plumsoftware.lab1.presentation.reviews
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -17,6 +18,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import ru.plumsoftware.lab1.R
 import ru.plumsoftware.lab1.models.ReviewModel
+import ru.plumsoftware.lab1.presentation.rating.Rating
 import ru.plumsoftware.lab1.ui.theme.color.dividerColor
 import ru.plumsoftware.lab1.ui.theme.size.Units
 
@@ -24,7 +26,7 @@ import ru.plumsoftware.lab1.ui.theme.size.Units
 fun Reviews(list: List<ReviewModel>) {
     Column(
         verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.Start
     ) {
         Text(
             text = stringResource(id = R.string.reviewTitle),
@@ -32,6 +34,35 @@ fun Reviews(list: List<ReviewModel>) {
             textAlign = TextAlign.Start,
             modifier = Modifier.fillMaxWidth()
         )
+        Spacer(modifier = Modifier.height(height = Units.Spaces.smallPadding))
+        Row(
+            verticalAlignment = Alignment.Bottom,
+            horizontalArrangement = Arrangement.spacedBy(
+                space = Units.Spaces.headLogoItemSpacer,
+                alignment = Alignment.Start
+            ),
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(
+                text = stringResource(id = R.string.dota_rating),
+                style = MaterialTheme.typography.labelLarge,
+                textAlign = TextAlign.Start
+            )
+            Column(
+                verticalArrangement = Arrangement.spacedBy(
+                    space = Units.Spaces.headItemSpacer,
+                    alignment = Alignment.CenterVertically
+                ), horizontalAlignment = Alignment.Start
+            ) {
+                Rating()
+                Text(
+                    text = stringResource(id = R.string._70m),
+                    style = MaterialTheme.typography.bodySmall.copy(
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.4f)
+                    )
+                )
+            }
+        }
         Spacer(modifier = Modifier.height(height = Units.Spaces.defaultPadding))
         for (index in list.indices) {
             if (index != 0)
