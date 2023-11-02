@@ -1,6 +1,11 @@
 # Lab1
 This is Android Lab #1
-It is just one screen, creeated with Jetpack Compose.
+It is just one screen, created with Jetpack Compose.
+
+## Screenshots
+![screenshot #1](https://github.com/plumsoftware/Lab1/blob/master/app/src/main/res/drawable/img.png)
+
+![screenshot #2](https://github.com/plumsoftware/Lab1/blob/master/app/src/main/res/drawable/img_1.png)
 
 ## Get started
 Firstly you need to download [Android Studio](https://developer.android.com/studio/)
