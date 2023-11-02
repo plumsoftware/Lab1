@@ -18,8 +18,9 @@ So, _If you have not worked in Android Studio before, then create a file Android
 - Copy this repository in AndroidStudioProjects
 
 ## Launch
-To launch on divice you need use devices with versions from API 24 to API 34
+To launch on divice you need use devices with versions from API 24 to API 34.
 Check [release notes](https://developer.android.com/reference/android/os/Build.VERSION_CODES/)
+
 You can find APK in following way
 ```
 C:\Users\User\AndroidStudioProjects\Lab1\app\debug
