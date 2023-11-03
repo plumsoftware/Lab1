@@ -26,9 +26,8 @@ class MainActivity : ComponentActivity() {
             val context = LocalContext.current
             WindowCompat.setDecorFitsSystemWindows(window, false)
 
-            ApplySystemColors()
-
             Lab1Theme(darkTheme = true) {
+                ApplySystemColors()
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
